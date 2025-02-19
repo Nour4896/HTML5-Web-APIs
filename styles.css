@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #0d0583;
+}
+
+input {
+    border-radius: 12px;
+    width: 20%;
+    height: 30px
+}
+
+#save-btn {
+    padding: 10px 20px;
+    background-color: #096138;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#clear-btn {
+    padding: 10px 20px;
+    background-color: #963214;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#save-btn:hover {
+    background-color: #1c4733;
+}
+
+#clear-btn:hover {
+    background-color: #69220c;
+}
+
+#display-name {
+    font-size: 20px;
+    border: 3px dotted blue;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    padding: 10px 0 10px 0;
+}
